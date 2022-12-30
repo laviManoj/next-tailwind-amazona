@@ -18,6 +18,7 @@ export default function Layout({ children }) {
             <div className="flex min-h-screen flex-col justify-between">
                 <header>
                   <nav className="flex h-12 items-center px-4 justify-between  shadow-md">
+                    {/* //Link to replace the a tag */}
                     <a  href="/" >
                         <a className="text-lg font-bold">amazon</a>
                     </a>
